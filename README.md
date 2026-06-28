@@ -10,14 +10,14 @@ Built with **FastAPI · FAISS · Groq (LLaMA 3 70B) · React · Vite**
 
 | Feature | Description |
 |---|---|
-| 📄 **PDF Ingestion** | Upload 10-Ks, earnings transcripts, financial news (up to 50MB) |
-| 💬 **Research Chat** | RAG-powered Q&A — retrieves relevant passages before answering |
-| 📊 **Financial Insights** | Auto-extracts risk factors, forward guidance, financial metrics |
-| 📈 **Sentiment Analysis** | Rule-based finance sentiment scoring on full document |
-| 📝 **Investment Memo** | AI generates buy/hold/sell analyst note with bull/bear case |
-| 🔍 **Entity Extraction** | Identifies companies, executives, financial figures |
-| ⚖️ **Compare Mode** | Side-by-side analysis of two documents on any dimension |
-| 📃 **Executive Summary** | Structured summary of any uploaded report |
+|  **PDF Ingestion** | Upload 10-Ks, earnings transcripts, financial news (up to 50MB) |
+|  **Research Chat** | RAG-powered Q&A — retrieves relevant passages before answering |
+|  **Financial Insights** | Auto-extracts risk factors, forward guidance, financial metrics |
+|  **Sentiment Analysis** | Rule-based finance sentiment scoring on full document |
+|  **Investment Memo** | AI generates buy/hold/sell analyst note with bull/bear case |
+|  **Entity Extraction** | Identifies companies, executives, financial figures |
+|  **Compare Mode** | Side-by-side analysis of two documents on any dimension |
+|  **Executive Summary** | Structured summary of any uploaded report |
 
 ## Tech Stack
 
