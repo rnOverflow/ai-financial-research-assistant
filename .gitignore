@@ -29,3 +29,5 @@ Thumbs.db
 *.index
 uploads/
 *.log
+backend/.env
+backend/venv/
