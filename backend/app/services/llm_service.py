@@ -91,8 +91,8 @@ def compare_documents(
     doc2_chunks: list[str],
     doc2_name: str,
 ) -> str:
-    ctx1 = "\n\n".join(doc1_chunks)
-    ctx2 = "\n\n".join(doc2_chunks)
+    ctx1 = "\n\n".join(doc1_chunks[:3])
+    ctx2 = "\n\n".join(doc2_chunks[:3])
 
     prompt = f"""You are comparing two financial documents.
 
@@ -177,4 +177,4 @@ Return a structured JSON-like response with these categories:
 - Regulatory bodies / legal entities
 
 Format clearly with headers."""
-    return _chat(FINANCE_SYSTEM, prompt, max_tokens=800)
+    return _chat(FINANCE_SYSTEM, prompt, max_tokens=1000)
