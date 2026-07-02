@@ -102,18 +102,3 @@ ai-financial-research-assistant/
 | GET | `/api/entities/{id}` | Entity extraction |
 | POST | `/api/compare` | Compare two documents |
 
-## Resume Bullet Points
-
-```
-• Built RAG pipeline using FAISS vector search and Sentence Transformers to enable semantic 
-  Q&A over 50MB+ financial PDFs, achieving sub-second retrieval across 1,000+ document chunks
-
-• Engineered financial NLP pipeline extracting risk factors, forward guidance, and metrics 
-  from 10-K filings using custom regex patterns and rule-based sentiment analysis
-
-• Developed LLM-powered investment memo generator using Groq's LLaMA 3 70B API, producing 
-  structured buy/hold/sell recommendations with bull/bear case analysis
-
-• Architected full-stack platform with FastAPI backend and React/Vite frontend, supporting 
-  multi-document comparative analysis across earnings transcripts and annual reports
-```
